@@ -1,0 +1,17 @@
+SECTION C:-
+
+1)nice --20 firefox &
+
+2)nice -19 firefox &
+
+3)nice -10 firefox &
+
+4)SIGTSTP:- Is used for the stop to the runnig process
+  SIGSTOP:- Is used to stop forcefully to the runnig process
+       whenever SIGTSTP is not working to stop the process this signal is used.
+  SIGKILL:- Is used for the kill or terminate the process
+  SIGTERM:- Is also used for the kill or terminate the process
+  SIGINT :- Is a interrupt of the process its automatically destroyed.
+  SIGQUIT:- Is a used for the quiting the process.
+
+5)kill -SIGKILL (PID)

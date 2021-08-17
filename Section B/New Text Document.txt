@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+
+main()
+{
+for(i=0;i<=4;i++)
+{
+if(fork()==0)
+{
+printf("[son] pid[%d] %d from[parent] pid %d\n",i,gtetpid(),getppid());
+}
+}
